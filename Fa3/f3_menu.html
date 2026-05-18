@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MENU</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #e8f5e9;
+        padding: 30px;
+      }
+
+      .container {
+        width: 1000px;
+        min-height: 550px;
+        background: white;
+        border: 6px solid #2e7d32;
+        border-radius: 25px;
+        padding: 60px;
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h1 {
+        text-align: center;
+        color: #1b5e20;
+        font-size: 55px;
+        margin-bottom: 20px;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 28px;
+        color: #43a047;
+        margin-bottom: 70px;
+        font-weight: bold;
+      }
+
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        align-items: center;
+      }
+
+      .menu-btn {
+        width: 500px;
+        padding: 25px;
+        background: #43a047;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 15px;
+        font-size: 30px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+
+      .menu-btn:hover {
+        background: #1b5e20;
+        transform: scale(1.03);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>FORMATIVE 3 Activities</h1>
+
+      <div class="subtitle">Applications Development and Emerging Technologies</div>
+
+      <div class="buttons">
+        <a href="display_info.php" class="menu-btn"> Activity 1 </a>
+
+        <a href="prog_array.php" class="menu-btn"> Activity 2 </a>
+
+        <a href="para_value.php" class="menu-btn"> Activity 3 </a>
+      </div>
+    </div>
+  </body>
+</html>

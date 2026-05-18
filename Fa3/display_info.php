@@ -8,53 +8,53 @@
 
 <style>
     body{
-    background-color: #e8f5e9;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 30px;
-}
+        background-color: #e8f5e9;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 30px;
+    }
 
-table{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
-    background-color: white;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
-}
+    table{
+        border: 3px solid #2e7d32;
+        width: 980px;
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+        background-color: white;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    }
 
-th{
-    background-color: #81c784;
-    color: white;
-    padding: 15px;
-    font-size: 18px;
-}
+    th{
+        background-color: #66bb6a;
+        color: white;
+        padding: 15px;
+        font-size: 18px;
+    }
 
-td{
-    border: 2px solid #c8e6c9;
-    text-align: center;
-    padding: 12px;
-    font-size: 16px;
-}
+    td{
+        border: 2px solid #c8e6c9;
+        text-align: center;
+        padding: 12px;
+        font-size: 16px;
+    }
 
-img{
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    object-fit: cover;
-}
+    img{
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+
 </style>
 <body>
     <?php
 
-$information = array (
+    $information = array (
 
     array("Michael Robinavich", '<img src="./robby.png">', "54", "06/04/1971", "09637895060"),
-
     array("Heather Collins", '<img src="./heather.png">', "40", "09/10/1985", "09785002885"),
-
     array("Frank Langdon", '<img src="./langdon.jpg">', "36", "11/10/1989", "09335657801"),
-
     array("Dana Evans", '<img src="./dana.jpg">', "59", "12/01/1966", "09453296644"),
 
     array("Samira Mohan", '<img src="./samara.jpg">', "28", "12/16/1997", "09558809268"),
