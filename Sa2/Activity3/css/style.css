@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container{
+    width: 900px;
+    margin: 20px auto;
+    border: 2px solid gray;
+    background-color: #f5f5f5;
+}
+
+/* HEADER */
+.header{
+    background-color: #5fa8a8;
+    color: black;
+    padding: 20px;
+    position: relative;
+    border-bottom: 2px solid gray;
+}
+
+.header h1{
+    margin: 0;
+    font-size: 40px;
+}
+
+.header p{
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.resume-image{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.resume-image img{
+    width: 130px;
+    height: 130px;
+    border: 2px solid white;
+}
+
+/* MAIN CONTENT */
+.main-content{
+    display: flex;
+}
+
+/* LEFT SIDE */
+.left{
+    width: 35%;
+    border-right: 2px solid gray;
+    padding: 15px;
+    background-color: #efefef;
+}
+
+.left h2{
+    color: darkred;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    font-size: 22px;
+}
+
+.left p,
+.left li{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* RIGHT SIDE */
+.right{
+    width: 65%;
+    padding: 15px;
+}
+
+.right h2{
+    color: darkred;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    font-size: 22px;
+}
+
+.right p,
+.right li{
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+.footer{
+    text-align: center;
+    padding: 15px;
+    background-color: #5fa8a8;
+    color: white;
+    border-top: 2px solid gray;
+}
+
+/* LISTS */
+ul{
+    padding-left: 20px;
+}
