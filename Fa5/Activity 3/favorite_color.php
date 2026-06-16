@@ -23,83 +23,71 @@ if(isset($_POST['submit']))
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Colors</title>
 
-<title>Favorite Colors</title>
+    <style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:'Poppins',sans-serif;
+    }
 
-<style>
+    body{
+        background:#eef6f7;
+        min-height:100vh;
+        padding:60px 20px;
+    }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
-}
+    .container{
+        max-width:800px;
+        margin:auto;
+    }
 
-body{
-    background:#eef6f7;
-    min-height:100vh;
-    padding:60px 20px;
-}
+    .card{
+        background:white;
+        border-radius:25px;
+        padding:40px;
+        box-shadow:0 8px 20px rgba(0,0,0,.08);
+    }
 
-.container{
-    max-width:800px;
-    margin:auto;
-}
+    .page-header{
+        background:#dcecee;
+        padding:25px;
+        border-radius:20px;
+        text-align:center;
+        font-size:36px;
+        font-weight:700;
+        margin-bottom:30px;
+    }
 
-.card{
-    background:white;
-    border-radius:25px;
-    padding:40px;
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-}
+    .form-group{
+        margin-bottom:20px;
+    }
 
-.page-header{
-    background:#dcecee;
-    padding:25px;
-    border-radius:20px;
-    text-align:center;
-    font-size:36px;
-    font-weight:700;
-    margin-bottom:30px;
-}
+    input{
+        width:100%;
+        padding:15px;
+        border:none;
+        border-radius:20px;
+        background:#eaf4f6;
+    }
 
-.form-group{
-    margin-bottom:20px;
-}
+    .center{
+        text-align:center;
+    }
 
-input{
-    width:100%;
-    padding:15px;
-    border:none;
-    border-radius:20px;
-    background:#eaf4f6;
-}
-
-.center{
-    text-align:center;
-}
-
-.btn{
-    background:#79a7ab;
-    color:white;
-    border:none;
-    padding:15px 30px;
-    border-radius:25px;
-    cursor:pointer;
-}
-
-.home{
-    display:inline-block;
-    margin-top:20px;
-    text-decoration:none;
-    background:#79a7ab;
-    color:white;
-    padding:12px 25px;
-    border-radius:25px;
-}
-
-</style>
+    .btn{
+        background:#79a7ab;
+        color:white;
+        border:none;
+        padding:15px 30px;
+        border-radius:25px;
+        cursor:pointer;
+    }
+    </style>
 
 </head>
 
@@ -107,49 +95,42 @@ input{
 
 <div class="container">
 
-<div class="card">
+    <div class="card">
 
-<div class="page-header">
-My 5 Favorite Colors
-</div>
+        <div class="page-header">
+            My 5 Favorite Colors
+        </div>
 
-<form method="post">
+        <form method="post">
 
-<div class="form-group">
-<input type="text" name="color1" placeholder="Favorite Color 1" required>
-</div>
+            <div class="form-group">
+                <input type="text" name="color1" placeholder="Favorite Color 1" required>
+            </div>
 
-<div class="form-group">
-<input type="text" name="color2" placeholder="Favorite Color 2" required>
-</div>
+            <div class="form-group">
+                <input type="text" name="color2" placeholder="Favorite Color 2" required>
+            </div>
 
-<div class="form-group">
-<input type="text" name="color3" placeholder="Favorite Color 3" required>
-</div>
+            <div class="form-group">
+                <input type="text" name="color3" placeholder="Favorite Color 3" required>
+            </div>
 
-<div class="form-group">
-<input type="text" name="color4" placeholder="Favorite Color 4" required>
-</div>
+            <div class="form-group">
+                <input type="text" name="color4" placeholder="Favorite Color 4" required>
+            </div>
 
-<div class="form-group">
-<input type="text" name="color5" placeholder="Favorite Color 5" required>
-</div>
+            <div class="form-group">
+                <input type="text" name="color5" placeholder="Favorite Color 5" required>
+            </div>
 
-<div class="center">
-<button class="btn" name="submit">
-Send Colors
-</button>
-</div>
+            <div class="center">
+                <button class="btn" name="submit">
+                    Send Colors
+                </button>
+            </div>
 
-</form>
-
-<div class="center">
-<a href="../index.php" class="home">
-Back to Home
-</a>
-</div>
-
-</div>
+        </form>
+    </div>
 
 </div>
 
